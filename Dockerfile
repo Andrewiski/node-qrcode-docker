@@ -19,6 +19,6 @@ RUN npm install
 # RUN npm ci --only=production
 # Bundle app source
 COPY . .
-EXPOSE 42080 42443
+EXPOSE 3031
 
 CMD [ "npm", "run", "start" ]

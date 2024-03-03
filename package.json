@@ -1,7 +1,7 @@
 {
   "name": "node-qrcode-docker",
   "description": "Dockerised Web server QRCode Generator ",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "author": "Andrew DeVries <adevries@digitalexample.com>",
   "keywords": [
     "qr",
