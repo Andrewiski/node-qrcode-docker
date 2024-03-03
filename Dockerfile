@@ -1,4 +1,4 @@
-FROM node:16.20.2-alpine3.17 
+FROM node:16.20.2-buster 
 
 # Update args in docker-compose.yaml to set the UID/GID of the "node" user.
 ARG USER_UID=1000
