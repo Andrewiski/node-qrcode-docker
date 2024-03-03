@@ -1,0 +1,34 @@
+{
+  "name": "node-qrcode-docker",
+  "description": "Dockerised Web server QRCode Generator ",
+  "version": "1.5.3",
+  "author": "Andrew DeVries <adevries@digitalexample.com>",
+  "keywords": [
+    "qr",
+    "code",
+    "canvas",
+    "qrcode",
+    "docker"
+  ],
+  "main": "./clientsideserver.js",
+  "homepage": "http://github.com/andrewiski/node-qrcode-docker",
+  "license": "MIT",
+  "scripts": {
+    "start": "node clientsideserver.js"
+  },
+  
+  "dependencies": {
+    "@andrewiski/qrcode":"^1.5.4",
+    "express": "^4.17.1",
+    "canvasutil": "0.0.4",
+    "canvas": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewiski/node-qrcode-docker.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+  
+}
