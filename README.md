@@ -8,7 +8,7 @@ The project is built using Node.js and Docker. The Node.js server listens for re
 
 ## How to install  (Could use some help creating an install.sh script to make this easier)
 ```
-docker run -d -p 3031:3031 --name node-qrcode-docker node-qrcode-docker
+docker run -d -p 3031:3031 --name nodeqrcode nodeqrcode
 
 ```
 ## Disclaimer 
